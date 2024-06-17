@@ -1,6 +1,4 @@
-{"markdown":"
-    
-A paragraph with *emphasis* and **strong importance**.
+{"markdown":["A paragraph with *emphasis* and **strong importance**.
 
 > A block quote with ~strikethrough~ and a URL: https://reactjs.org.
       
@@ -13,6 +11,8 @@ A table:
 
   * Lists
      * [ ] todo
-     * [x] done
+     * [x] done"]"
+    
+
 
 ", "code":30}
