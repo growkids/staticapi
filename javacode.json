@@ -1,4 +1,4 @@
-{"markdown":"`
+{"markdown":"
     
 A paragraph with *emphasis* and **strong importance**.
 
@@ -15,4 +15,4 @@ A table:
      * [ ] todo
      * [x] done
 
-`.trim();", "code":30}
+", "code":30}
