@@ -1,1 +1,40 @@
-{"markdown":"HI", "code":30}
+{"markdown":"A paragraph with *emphasis* and **strong importance**.
+
+> A block quote with ~strikethrough~ and a URL: https://reactjs.org.
+      
+A table:
+    
+ | City | Country |
+ | - | - |
+ | Delhi| India |
+ | Mumbai| India |
+
+  * Lists
+     * [ ] todo
+     * [x] done", "code":"public class BinaryGap {
+    public static void main(String[] args) {
+        int number = 1041;  // You can change this number to test with other values
+        System.out.println("The binary gap of " + number + " is: " + findBinaryGap(number));
+    }
+
+    public static int findBinaryGap(int number) {
+        String binaryString = Integer.toBinaryString(number);
+        int maxGap = 0;
+        int currentGap = 0;
+        boolean counting = false;
+
+        for (char c : binaryString.toCharArray()) {
+            if (c == '1') {
+                if (counting) {
+                    maxGap = Math.max(maxGap, currentGap);
+                }
+                counting = true;
+                currentGap = 0;
+            } else if (counting) {
+                currentGap++;
+            }
+        }
+        
+        return maxGap;
+    }
+}"}
