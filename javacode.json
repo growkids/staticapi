@@ -1,1 +1,1 @@
-{\"status\": \"Failed\", \"actions\": \"valud for action\\n\"}
+{"success":true,"data":"{\"status\": \"Failed\", \"percentage_completed\": \"0\", \"actions\": \"Error: Insufficient argument: 1\\n\"}","message":"Logs fetched successfully."}
