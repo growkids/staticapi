@@ -1,4 +1,4 @@
-{"markdown":"A paragraph with *emphasis* and **strong importance**.
+{"markdown":["A paragraph with *emphasis* and **strong importance**.
 
 > A block quote with ~strikethrough~ and a URL: https://reactjs.org.
       
@@ -11,7 +11,9 @@ A table:
 
   * Lists
      * [ ] todo
-     * [x] done", "code":"public class BinaryGap {
+     * [x] done"]
+      
+      "code":["public class BinaryGap {
     public static void main(String[] args) {
         int number = 1041;  // You can change this number to test with other values
         System.out.println("The binary gap of " + number + " is: " + findBinaryGap(number));
@@ -37,4 +39,6 @@ A table:
         
         return maxGap;
     }
-}"}
+}"
+]
+}
